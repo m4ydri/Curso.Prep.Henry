@@ -47,7 +47,6 @@ function getEmail(PATH) {
 		process.exit()
 	}
 }
-
 function readFile() {
   try{
     const lt = fs.readFileSync('./.reporter/lt.json');
